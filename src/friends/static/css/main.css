@@ -1,0 +1,63 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+label,
+input {
+    display:block;
+}
+
+input.text,
+select.select {
+    margin-bottom: 1em;
+    width:95%;
+    padding: .4em;
+}
+
+label {
+    margin-bottom: 0.5em;
+}
+
+.error-list {
+    color: darkred;
+    margin-top: -0.5em;
+    margin-bottom: 1em;
+}
+
+#content {
+    border-top: 2px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.friend {
+    border-bottom: 1px solid lightgray;
+    padding: 0.5em;
+}
+
+.friend .fa-user {
+    margin: 0.25em 0.5em 0 4px;
+    font-size: 2em;
+}
+
+.friend .name {
+    display: inline-block;
+    padding-bottom: 0.5em;
+    width: 200px;
+
+}
+
+.friend .btn-friend {
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+}
+
+.friend .notes {
+    padding-top: 0.5em;
+    padding-right: 1em;
+}
+
+#friend-form,
+#meeting-form {
+    display: none;
+}
